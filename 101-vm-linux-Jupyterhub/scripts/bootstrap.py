@@ -12,6 +12,7 @@ Constraints:
   - Script should parse in Python 3.4 (since we exit with useful error message on Ubuntu 14.04+)
   - Use stdlib modules only
 """
+import utils.session
 import os
 import subprocess
 import sys
